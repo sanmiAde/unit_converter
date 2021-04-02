@@ -13,6 +13,8 @@
 		86014BFE2616E3D700A462E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86014BFD2616E3D700A462E3 /* Preview Assets.xcassets */; };
 		86014C092616E3D700A462E3 /* Unit_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86014C082616E3D700A462E3 /* Unit_ConverterTests.swift */; };
 		86014C142616E3D700A462E3 /* Unit_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86014C132616E3D700A462E3 /* Unit_ConverterUITests.swift */; };
+		86014C252616E73E00A462E3 /* TemperatureUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86014C242616E73E00A462E3 /* TemperatureUnit.swift */; };
+		86014C2D2616EF4D00A462E3 /* TemperatureUnitPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86014C2C2616EF4D00A462E3 /* TemperatureUnitPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		86014C0F2616E3D700A462E3 /* Unit ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86014C132616E3D700A462E3 /* Unit_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_ConverterUITests.swift; sourceTree = "<group>"; };
 		86014C152616E3D700A462E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86014C242616E73E00A462E3 /* TemperatureUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureUnit.swift; sourceTree = "<group>"; };
+		86014C2C2616EF4D00A462E3 /* TemperatureUnitPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureUnitPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				86014BFA2616E3D700A462E3 /* Assets.xcassets */,
 				86014BFF2616E3D700A462E3 /* Info.plist */,
 				86014BFC2616E3D700A462E3 /* Preview Content */,
+				86014C242616E73E00A462E3 /* TemperatureUnit.swift */,
+				86014C2C2616EF4D00A462E3 /* TemperatureUnitPickerView.swift */,
 			);
 			path = "Unit Converter";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86014C2D2616EF4D00A462E3 /* TemperatureUnitPickerView.swift in Sources */,
+				86014C252616E73E00A462E3 /* TemperatureUnit.swift in Sources */,
 				86014BF92616E3D500A462E3 /* ContentView.swift in Sources */,
 				86014BF72616E3D500A462E3 /* Unit_ConverterApp.swift in Sources */,
 			);
